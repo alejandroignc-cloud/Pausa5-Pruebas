@@ -1,0 +1,31 @@
+PAUSA5 — ACTUALIZACIÓN MÓVIL V4.4
+================================
+
+CONTENIDO
+- index.html
+- style.css
+- script.js
+- service-worker.js
+- manifest.json
+- icon.svg
+- icon-maskable.svg
+
+CORRECCIONES PRINCIPALES
+1. Tipografías y botones adaptativos para pantallas pequeñas.
+2. Selección de estado de ánimo: la confirmación con «Comenzar mi rutina» aparece inmediatamente en el celular y se puede volver a elegir un estado.
+3. Menú desplegable para navegación móvil.
+4. Tarjetas de ejercicios deslizables con botones Anterior / Siguiente en celular.
+5. Estadísticas distribuidas en un formato compacto para celular.
+
+CÓMO USARLA
+1. Guarda una copia de tu carpeta original de Pausa5 antes de cambiar nada.
+2. Descomprime este ZIP en una NUEVA carpeta.
+3. Abre index.html para revisar el aspecto visual. Algunas funciones PWA (service worker, instalación) requieren un servidor local o GitHub Pages.
+4. Prueba que puedas seleccionar un ánimo, iniciar una rutina, pausar y cambiar ejercicios; revisa también el contador de progreso.
+5. Cuando esté lista, reemplaza en tu repositorio GitHub los archivos con esos mismos nombres (ubicación raíz) y deja que GitHub Pages publique el cambio.
+6. Actualiza la página en tu celular. Si sigues viendo la versión anterior, vuelve a cargarla o cierra y vuelve a abrirla: se actualizó la versión de caché de Pausa5 v4.4.
+
+NOTAS DE VALIDACIÓN
+Se realizaron verificaciones en un navegador Chromium simulado en anchos de 320, 375, 390, 560, 760 y 1024 px: inicio de rutina, cambio de ánimo, menú de navegación, carrusel y ausencia de desbordamiento horizontal general. Se comprobó inicio y pausa del temporizador. No se hizo una prueba integral durante cinco minutos completos de cada flujo ni en un teléfono físico. 
+
+Esta entrega no modifica tu repositorio GitHub ni tus archivos originales por sí sola.
